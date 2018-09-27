@@ -1,0 +1,2 @@
+# nurettinyakit.com
+Blog
