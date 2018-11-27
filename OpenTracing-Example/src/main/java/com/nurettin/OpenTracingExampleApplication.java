@@ -18,7 +18,7 @@ import zipkin2.reporter.okhttp3.OkHttpSender;
 public class OpenTracingExampleApplication {
 
     @Bean
-    @Profile("jaeger")
+    @Profile("!zipkin")
     public Tracer jaegerTracer() {
         return new Configuration("spring-boot").getTracer();
     }
