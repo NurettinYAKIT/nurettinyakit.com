@@ -25,4 +25,5 @@ public class Stock {
     public void setPrice(String price) {
         this.price = price;
     }
+
 }
